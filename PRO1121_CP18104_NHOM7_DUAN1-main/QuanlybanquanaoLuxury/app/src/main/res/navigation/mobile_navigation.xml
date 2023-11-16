@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="vinhnqph29776.nhom_7_PRO1121_CP18104_Duan1.ui.sanpham.Fragment_sanpham"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_sanpham" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="vinhnqph29776.nhom_7_PRO1121_CP18104_Duan1.ui.Quanlyhoadon.Fragment_thongbao"
+        android:label="Quản lý hóa đơn"
+        tools:layout="@layout/activity_main_hoa_don" />
+
+
+</navigation>
